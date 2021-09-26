@@ -59,11 +59,18 @@
     display: flex;
     justify-content: space-between;
     box-shadow: -30px 8px 5px gray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
 }
 .portfoli-user-detail{
     width: 50%;
     padding: 5px;
     font-family: 'Yaldevi', sans-serif;
+    border-left: 6px solid rgb(177, 1, 1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
 }
 .user-cont-wrap{
     text-align: center;
@@ -86,6 +93,29 @@
     height: 40vh;
     background-color: orange;
 }
+/* .animation-cont{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+
+} */
+/* .animation-cont img{
+height:  100%;
+position:absolute;
+left: 50%;
+bottom: 0px;
+transform: translateX(-30%); */
+/* transform: rotate(0.3turn); */
+/* transition:  bottom 1s, left 1s;
+}
+.animation-cont:hover .first{
+bottom: 40px;
+}
+.animation-cont:hover .second{
+    left: 53%;
+} */
 .first-box-wrap{
     height: 20vh;
     display: flex;   
