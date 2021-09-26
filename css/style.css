@@ -58,7 +58,7 @@
     grid-column-end: 3;
     display: flex;
     justify-content: space-between;
-    /* box-shadow: -30px 8px 5px gray; */
+    box-shadow: -30px 8px 5px gray;
 }
 .portfoli-user-detail{
     width: 50%;
