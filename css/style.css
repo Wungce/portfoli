@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  /* --primary-color:black; */
+  --secondary-color:rgb(245, 245, 245);
+}
 .page-wrap {
   width: 100%;
-  background-color: rgb(245, 245, 245);
+  background-color: var(--primary-color);
 }
 .nav-cont-wrap{
   display: grid;
@@ -144,10 +148,8 @@ bottom: 40px;
   background-color: white;
   box-shadow: 3px 7px 5px gray;
   border-radius: 10px;
-
-
 }
-.first-box-top {
+  .first-box-top {
   width: 100%;
   /* padding: 2px; */
 }
@@ -199,4 +201,8 @@ bottom: 40px;
 }
 .button-img-cont{
   margin-top: 6px;
+}
+ion-icon{
+  font-size: 40px;
+  color: white;
 }
