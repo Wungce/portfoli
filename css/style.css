@@ -196,7 +196,7 @@ bottom: 40px;
 .button-nav-cont {
   padding: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #9c0688;
 }
 .button-img-cont{
